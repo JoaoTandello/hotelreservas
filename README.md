@@ -50,5 +50,5 @@ npm start
 ![Tela de reservas](wireframes/reservas.png)
 
 ### Cadastro de Reserva
-![Cadastro de reservas](wireframes/cadastro-reservas.png)
+![Cadastro de reservas](wireframes/cadastro-reserva.png)
 
