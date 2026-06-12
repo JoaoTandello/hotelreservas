@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quartos</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Lexend:wght@300;400;600&family=Sora:wght@300;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <aside class="sidebar">
+        <div class="logo">
+            <i class="fa-solid fa-hotel"></i>
+
+            <h2>
+                Hotel <br>
+                Reservas
+            </h2>
+        </div>
+
+        <nav>
+            <ul>
+                <li class="ativo">
+                    <a href="quartos.html">
+                        <i class="fa-solid fa-bed"></i>
+                        Quartos
+                    </a>
+                </li>
+
+                <li>
+                    <a href="reservas.html">
+                        <i class="fa-regular fa-calendar"></i>
+                        Reservas
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+        <section class="container">
+
+            <div class="cabecalho">
+                <div>
+                    <h1>Quartos</h1>
+                    <p>Gerencie os quartos do hotel</p>
+                </div>
+
+                <a href="cadastro-quarto.html">
+                    <button class="btn-azul"><i class="fa-solid fa-plus"></i> Novo Quarto</button>
+                </a>
+            </div>
+
+            <div class="tabela-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Número</th>
+                            <th>Tipo</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="lista-quartos">
+                    </tbody>
+                </table>
+
+                <div id="sem-quartos">
+                    <i class="fa-solid fa-bed"></i>
+                    <p>Nenhum quarto cadastrado</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

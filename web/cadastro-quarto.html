@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cadastro de Quarto</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Lexend:wght@300;400;600&family=Sora:wght@300;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+    <aside class="sidebar">
+        <div class="logo">
+            <i class="fa-solid fa-hotel"></i>
+            <h2>Hotel<br>Reservas</h2>
+        </div>
+
+        <nav>
+            <ul>
+                <li class="ativo">
+                    <a href="quartos.html">
+                        <i class="fa-solid fa-bed"></i>Quartos</a>
+                </li>
+                <li>
+                    <a href="reservas.html">
+                        <i class="fa-regular fa-calendar"></i>Reservas</a>
+
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+        <section class="container formulario-container">
+            <div class="card-form">
+                <div class="titulo-form">
+                    <h1>Cadastro de Quarto</h1>
+                    <p>Informe os dados do novo quarto</p>
+                </div>
+
+                <form id="formQuarto">
+                    <label for="numero">Número do Quarto</label>
+                    <input 
+                        type="number" 
+                        id="numero"
+                        placeholder="Ex: 101"
+                        required>
+
+                    <label for="tipo">Tipo do Quarto </label>
+                    <select id="tipo" required>
+                    <option value="">Selecione o tipo</option>
+                    <option value="Comum">Comum</option>
+                    <option value="Luxo">Luxo</option>
+                    <option value="Suíte"> Suíte</option>
+                    </select>
+
+                    <button type="submit" class="btn-azul btn-form">
+                        <i class="fa-regular fa-floppy-disk"></i>
+                        Cadastrar
+                    </button>
+
+                    <a href="quartos.html">
+
+                        <button type="button" class="btn-voltar btn-form"> Voltar </button>
+                    </a>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
