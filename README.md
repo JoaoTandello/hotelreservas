@@ -5,36 +5,36 @@ Sistema web desenvolvido para gerenciamento de quartos e reservas de um hotel, p
 ## Funcionalidades
 
 ### Quartos
-- Cadastrar quartos;
-- Visualizar quartos cadastrados;
-- Excluir quartos.
+- Cadastrar quartos
+- Visualizar quartos cadastrados
+- Excluir quartos
 
 ### Reservas
-- Cadastrar reservas associadas a um quarto;
-- Visualizar reservas cadastradas;
-- Excluir reservas.
+- Cadastrar reservas associadas a um quarto
+- Visualizar reservas cadastradas
+- Excluir reservas
 
 ## Tecnologias utilizadas
 
-- HTML;
-- CSS;
-- JavaScript;
-- Node.js;
-- Express.js;
-- MySQL.
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- Express.js
+- MySQL
 
 ## Infraestrutura
 
-- **IDE:** Visual Studio Code;
-- **SGBD:** MySQL;
-- **Servidor de aplicação:** Node.js com Express;
-- **Navegador utilizado:** Google Chrome.
+- **IDE:** Visual Studio Code
+- **SGBD:** MySQL
+- **Servidor de aplicação:** Node.js com Express
+- **Navegador utilizado:** Google Chrome
 
 
 ## Como executar
 
-1. Clone o repositório;
-2. Importe o banco de dados localizado na pasta `docs`;
+1. Clone o repositório
+2. Importe o banco de dados localizado na pasta `docs`
 3. Execute o backend na pasta `api` utilizando:
 bash
 npm install
